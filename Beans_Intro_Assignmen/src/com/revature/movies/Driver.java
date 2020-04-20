@@ -77,6 +77,13 @@ public class Driver {
 			
 		}else if(movieGenre.toLowerCase().equals(horror)) {
 			
+			for(int i = 0; i< numberArray.length; i++) {
+				
+				num2 = numberArray[1];
+				num3 = numberArray[2];
+				num4 = numberArray[3];
+			}
+			
 			movieRating = (float) configureRating(num1, num2, num3, num4);
 			Horror horrorMovie = new Horror(movieTitle, movieRating, movieYear);
 			System.out.println(horrorMovie);
